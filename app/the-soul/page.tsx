@@ -29,19 +29,19 @@ export default function TheSoulPage() {
     <main className="relative bg-brand-purple min-h-screen">
       <Navbar />
 
-      <section className="pt-28 pb-20">
-        <div className="max-w-6xl mx-auto px-4 text-white">
+      <section className="pt-20 sm:pt-24 md:pt-28 pb-12 sm:pb-16 md:pb-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-white">
           {/* Dropdown has been handled in Navbar; here we just render sections */}
 
           {sections.map((item, idx) => (
-            <article key={item.slug} className={`mb-16 last:mb-0 animate-slide-up animate-delay-${idx > 0 ? (idx * 100) : '100'}`}>
+            <article key={item.slug} className={`mb-12 sm:mb-14 md:mb-16 last:mb-0 animate-slide-up animate-delay-${idx > 0 ? (idx * 100) : '100'}`}>
               <Link href={`/the-soul/${item.slug}`} className="block hover:opacity-80 transition-opacity">
-                <h2 className="metal-heading-lg text-brand-green mb-6 text-left">{item.title}</h2>
+                <h2 className="metal-heading-lg text-brand-green mb-4 sm:mb-5 md:mb-6 text-left">{item.title}</h2>
               </Link>
 
               <div className="grid md:grid-cols-[1.1fr,0.9fr] bg-white text-black shadow-lg hover-lift">
                 {/* Image left */}
-                <div className="relative min-h-[220px] md:min-h-[260px] lg:min-h-[500px] overflow-hidden border-2 border-brand-green">
+                <div className="relative min-h-[200px] sm:min-h-[240px] md:min-h-[280px] lg:min-h-[500px] overflow-hidden border-2 border-brand-green">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -51,12 +51,12 @@ export default function TheSoulPage() {
                 </div>
 
                 {/* Text right */}
-                <div className="flex flex-col justify-between p-6 md:p-8 text-base md:text-lg leading-relaxed">
+                <div className="flex flex-col justify-between p-4 sm:p-6 md:p-8 text-sm sm:text-base md:text-lg leading-relaxed">
                   <p>{item.text}</p>
-                  <div className="mt-6">
+                  <div className="mt-4 sm:mt-6">
                     <Link
                       href={`/the-soul/${item.slug}`}
-                      className="text-base md:text-lg font-bold uppercase tracking-wide text-brand-purple underline underline-offset-4 hover:text-brand-purple-dark transition-colors"
+                      className="text-sm sm:text-base md:text-lg font-bold uppercase tracking-wide text-brand-purple underline underline-offset-4 hover:text-brand-purple-dark transition-colors"
                     >
                       Read More
                     </Link>

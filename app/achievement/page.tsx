@@ -8,23 +8,23 @@ export default function AchievementPage() {
     <main className="relative bg-brand-purple min-h-screen">
       <Navbar />
 
-      <section className="pt-28 pb-20 text-white">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="pt-20 sm:pt-24 md:pt-28 pb-12 sm:pb-16 md:pb-20 text-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Main title */}
-          <h1 className="metal-heading-xl text-brand-green mb-8 text-center animate-scale-in">ACHIEVEMENT</h1>
+          <h1 className="metal-heading-xl text-brand-green mb-6 sm:mb-8 text-center animate-scale-in">ACHIEVEMENT</h1>
 
-          <p className="text-base md:text-lg leading-relaxed mb-12 text-center max-w-4xl mx-auto animate-fade-in animate-delay-200">
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-8 sm:mb-10 md:mb-12 text-center max-w-4xl mx-auto animate-fade-in animate-delay-200">
             For me, achievements aren&apos;t just certificates or awards — they are milestones marking the lessons, growth, and
             experiences that have shaped who I am. Each one carries a value I&apos;ve uncovered along the way.
           </p>
 
           {/* Three main sections */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-12 sm:mb-14 md:mb-16">
 
             {/* Academic Achievement */}
             <Link href="/achievement/academic-achievement" className="group">
-              <div className="bg-white/5 border-2 border-brand-green p-8 hover:bg-brand-green/10 transition-all duration-300 hover-lift animate-slide-up animate-delay-300">
-                <h2 className="metal-heading-lg text-brand-green mb-4 group-hover:scale-110 transition-transform">ACADEMIC ACHIEVEMENT</h2>
+              <div className="bg-white/5 border-2 border-brand-green p-4 sm:p-6 md:p-8 hover:bg-brand-green/10 transition-all duration-300 hover-lift animate-slide-up animate-delay-300">
+                <h2 className="metal-heading-lg text-brand-green mb-3 sm:mb-4 group-hover:scale-110 transition-transform text-2xl sm:text-3xl">ACADEMIC ACHIEVEMENT</h2>
                 <p className="text-gray-300 text-sm md:text-base">
                   Gold prizes, merit competitions, and academic excellence across multiple disciplines.
                 </p>
@@ -33,8 +33,8 @@ export default function AchievementPage() {
 
             {/* Research */}
             <Link href="/achievement/research" className="group">
-              <div className="bg-white/5 border-2 border-brand-green p-8 hover:bg-brand-green/10 transition-all duration-300 hover-lift animate-slide-up animate-delay-400">
-                <h2 className="metal-heading-lg text-brand-green mb-4 group-hover:scale-110 transition-transform">RESEARCH</h2>
+              <div className="bg-white/5 border-2 border-brand-green p-4 sm:p-6 md:p-8 hover:bg-brand-green/10 transition-all duration-300 hover-lift animate-slide-up animate-delay-400">
+                <h2 className="metal-heading-lg text-brand-green mb-3 sm:mb-4 group-hover:scale-110 transition-transform text-2xl sm:text-3xl">RESEARCH</h2>
                 <p className="text-gray-300 text-sm md:text-base">
                   Published research on gender stereotypes and educational opportunities for ethnic minority girls.
                 </p>
@@ -43,8 +43,8 @@ export default function AchievementPage() {
 
             {/* Certificate */}
             <Link href="/achievement/certificate" className="group">
-              <div className="bg-white/5 border-2 border-brand-green p-8 hover:bg-brand-green/10 transition-all duration-300 hover-lift animate-slide-up animate-delay-500">
-                <h2 className="metal-heading-lg text-brand-green mb-4 group-hover:scale-110 transition-transform">CERTIFICATE</h2>
+              <div className="bg-white/5 border-2 border-brand-green p-4 sm:p-6 md:p-8 hover:bg-brand-green/10 transition-all duration-300 hover-lift animate-slide-up animate-delay-500 sm:col-span-2 md:col-span-1">
+                <h2 className="metal-heading-lg text-brand-green mb-3 sm:mb-4 group-hover:scale-110 transition-transform text-2xl sm:text-3xl">CERTIFICATE</h2>
                 <p className="text-gray-300 text-sm md:text-base">
                   Recognition certificates from various projects, leadership roles, and community initiatives.
                 </p>

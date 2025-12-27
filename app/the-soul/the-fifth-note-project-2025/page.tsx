@@ -44,7 +44,7 @@ export default function TheFifthNoteProjectPage() {
             {/* Poster image */}
             <div className="animate-slide-left hover-lift border-2 border-brand-green overflow-hidden rounded-sm shadow-2xl">
               <Image
-                src="/the-soul/anh5.JPG"
+                src="/the-soul/anh5.jpg"
                 alt="The Fifth Note poster"
                 width={800}
                 height={1000}

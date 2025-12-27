@@ -46,15 +46,15 @@ export default function LionHeartPage() {
     <main className="relative bg-brand-purple min-h-screen">
       <Navbar />
 
-      <section className="pt-28 pb-20">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="pt-20 sm:pt-24 md:pt-28 pb-12 sm:pb-16 md:pb-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {sections.map((section, idx) => (
-            <article key={section.slug} className={`mb-16 last:mb-0 animate-slide-up animate-delay-${idx > 0 ? (idx * 100) : '100'}`}>
+            <article key={section.slug} className={`mb-12 sm:mb-14 md:mb-16 last:mb-0 animate-slide-up animate-delay-${idx > 0 ? (idx * 100) : '100'}`}>
               {/* Green bar */}
-              <div className="h-4 w-56 bg-brand-green mb-4" />
+              <div className="h-3 sm:h-4 w-40 sm:w-48 md:w-56 bg-brand-green mb-3 sm:mb-4" />
 
               {/* Heading lines */}
-              <Link href={`/lion-heart/${section.slug}`} className="block mb-6 hover:opacity-80 transition-opacity">
+              <Link href={`/lion-heart/${section.slug}`} className="block mb-4 sm:mb-5 md:mb-6 hover:opacity-80 transition-opacity">
                 <div className="space-y-1">
                   {section.titleLines.map((line) => (
                     <h2
@@ -69,18 +69,18 @@ export default function LionHeartPage() {
 
               {/* White content card */}
               <div className="grid md:grid-cols-[0.9fr,1.1fr] bg-white text-black shadow-lg hover-lift">
-                <div className="flex flex-col justify-between p-6 md:p-8 text-base md:text-lg leading-relaxed">
+                <div className="flex flex-col justify-between p-4 sm:p-6 md:p-8 text-sm sm:text-base md:text-lg leading-relaxed">
                   <p>{section.description}</p>
-                  <div className="mt-6">
+                  <div className="mt-4 sm:mt-6">
                     <Link
                       href={`/lion-heart/${section.slug}`}
-                      className="text-base md:text-lg font-bold uppercase tracking-wide text-brand-purple underline underline-offset-4 hover:text-brand-purple-dark transition-colors"
+                      className="text-sm sm:text-base md:text-lg font-bold uppercase tracking-wide text-brand-purple underline underline-offset-4 hover:text-brand-purple-dark transition-colors"
                     >
                       Read More
                     </Link>
                   </div>
                 </div>
-                <div className="relative min-h-[180px] md:min-h-[220px] lg:min-h-[400px] overflow-hidden border-2 border-brand-green">
+                <div className="relative min-h-[200px] sm:min-h-[220px] md:min-h-[280px] lg:min-h-[400px] overflow-hidden border-2 border-brand-green order-first md:order-last">
                   <Image
                     src={section.image}
                     alt={section.titleLines.join(' ')}

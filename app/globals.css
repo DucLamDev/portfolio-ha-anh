@@ -196,4 +196,41 @@
     filter: brightness(1.1) drop-shadow(0 0 20px rgba(57, 255, 20, 0.5));
     transform: scale(1.02);
   }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  /* Mobile-specific utilities */
+  @media (max-width: 640px) {
+    .hover-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  /* Ensure smooth scrolling on mobile */
+  @media (max-width: 768px) {
+    html {
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+
+  /* Prevent text size adjustment on mobile */
+  @media (max-width: 640px) {
+    body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+  }
 }
