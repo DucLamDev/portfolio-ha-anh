@@ -28,7 +28,7 @@ export default function PresidentFempowerPage() {
           </div>
 
           {/* Main group image */}
-          <div className="max-w-4xl mx-auto mb-12 animate-scale-in animate-delay-300 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+          <div className="max-w-4xl mx-auto mb-12 animate-scale-in animate-delay-300 hover-lift border-2 border-white overflow-hidden rounded-sm">
             <Image
               src="/lion-heart/lionheart_7.jpg"
               alt="FemPower group"
@@ -63,7 +63,7 @@ export default function PresidentFempowerPage() {
                   className="object-cover"
                 />
               </div>
-              <div className="relative w-full min-h-[140px] md:min-h-[250px] animate-slide-left animate-delay-200 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+              <div className="relative w-full min-h-[140px] md:min-h-[250px] animate-slide-left animate-delay-200 hover-lift border-2 border-white overflow-hidden rounded-sm">
                 <Image
                   src="/lion-heart/lionheart_10.jpg"
                   alt="FemPower activity 2"

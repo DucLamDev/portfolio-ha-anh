@@ -121,6 +121,13 @@ export default function AcademicAchievementPage() {
               Coming from a literature-specialized background, I discovered a deep passion for history within just one month - and achieved 
               results beyond my expectations.
             </p>
+            <Image
+                src="/achievement/anh10.jpg"
+                alt="Provincial merit competition certificate"
+                width={420}
+                height={320}
+                className="w-auto h-auto object-cover"
+              />
             <Link 
               href="https://drive.google.com/file/d/1gq56olkesPt8woOBTp3T62Zx_bq8Jha_/view?usp=drive_link"
               target="_blank"

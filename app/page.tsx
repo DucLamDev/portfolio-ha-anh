@@ -171,13 +171,13 @@ export default function Home() {
           <div className="relative animate-slide-up animate-delay-200 mb-6 sm:mb-8">
             {/* Collage Layout - adjusted to prevent cutoff */}
             <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 max-w-4xl">
-              <div className="col-span-2 overflow-hidden rounded-sm hover-lift border-2 border-brand-green">
+              <div className="col-span-2 overflow-hidden rounded-sm hover-lift border-2 border-white">
                 <Image src="/home/home_4.jpg" alt="Soul Knight performance" width={800} height={400} className="w-full h-auto object-cover animate-scale-in" />
               </div>
               <div className="overflow-hidden rounded-sm hover-lift border-2 border-white">
                 <Image src="/home/home_7.jpg" alt="Music session" width={400} height={500} className="w-full h-full object-cover animate-fade-in" />
               </div>
-              <div className="overflow-hidden rounded-sm hover-lift border-2 border-brand-green">
+              <div className="overflow-hidden rounded-sm hover-lift border-2 border-white">
                 <Image src="/home/home_6.jpg" alt="Guitar practice" width={400} height={500} className="w-full h-full object-cover animate-fade-in" />
               </div>
             </div>

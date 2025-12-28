@@ -31,7 +31,7 @@ export default function AboutPage() {
             </div>
             {/* Halftone decorative image */}
             <div className="hidden md:block relative w-full h-[400px] lg:h-[500px] animate-fade-in shadow-2xl" style={{ filter: 'drop-shadow(0 10px 40px rgba(0, 0, 0, 0.8))' }}>
-              <Image src="/about/about_21.png" alt="Halftone decoration" fill className="object-contain scale-110" />
+              <Image src="/about/about_21.png" alt="Halftone decoration" fill className="object-contain" quality={100} priority />
             </div>
           </div>
 
@@ -61,13 +61,13 @@ export default function AboutPage() {
 
           {/* 4 Images Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 md:gap-4 max-w-5xl mx-auto">
-            <div className="relative aspect-square animate-scale-in animate-delay-100 hover-lift border-2 border-brand-green">
+            <div className="relative aspect-square animate-scale-in animate-delay-100 hover-lift border-2 border-white">
               <Image src="/about/about_1.jpg" alt="Time photoshoot 1" fill className="object-cover" />
             </div>
             <div className="relative aspect-square animate-scale-in animate-delay-200 hover-lift border-2 border-white">
               <Image src="/about/about_2.jpg" alt="Time photoshoot 2" fill className="object-cover" />
             </div>
-            <div className="relative aspect-square animate-scale-in animate-delay-300 hover-lift border-2 border-brand-green">
+            <div className="relative aspect-square animate-scale-in animate-delay-300 hover-lift border-2 border-white">
               <Image src="/about/about_3.jpg" alt="Time photoshoot 3" fill className="object-cover" />
             </div>
             <div className="relative aspect-square animate-scale-in animate-delay-400 hover-lift border-2 border-white">
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <div className="relative max-w-5xl mx-auto">
             {/* Main large image left */}
             <div className="grid md:grid-cols-[1.2fr,0.8fr] gap-3 sm:gap-4 md:gap-6 mb-3 sm:mb-4 md:mb-6">
-              <div className="relative min-h-[350px] sm:min-h-[450px] md:min-h-[600px] animate-slide-left hover-lift border-2 border-brand-green">
+              <div className="relative min-h-[350px] sm:min-h-[450px] md:min-h-[600px] animate-slide-left hover-lift border-2 border-white">
                 <Image src="/about/about_5.jpg" alt="1(5)7 main guitar" fill className="object-cover" />
               </div>
               
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 <div className="relative min-h-[160px] sm:min-h-[220px] md:min-h-[280px] animate-scale-in animate-delay-200 hover-lift border-2 border-white">
                   <Image src="/about/about_6.jpg" alt="1(5)7 close up" fill className="object-cover" />
                 </div>
-                <div className="relative min-h-[160px] sm:min-h-[220px] md:min-h-[280px] animate-scale-in animate-delay-300 hover-lift border-2 border-brand-green">
+                <div className="relative min-h-[160px] sm:min-h-[220px] md:min-h-[280px] animate-scale-in animate-delay-300 hover-lift border-2 border-white">
                   <Image src="/about/about_7.jpg" alt="1(5)7 detail" fill className="object-cover" />
                 </div>
                 <div className="relative min-h-[160px] sm:min-h-[220px] md:min-h-[280px] col-span-2 animate-scale-in animate-delay-400 hover-lift border-2 border-white">
@@ -152,7 +152,7 @@ export default function AboutPage() {
           {/* 2x2 Grid - Top: Portrait, Bottom: Landscape */}
           <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 max-w-4xl mx-auto">
             {/* Top Left - Portrait */}
-            <div className="relative aspect-[3/4] border-2 border-brand-green overflow-hidden bg-brand-purple animate-scale-in animate-delay-100 hover-lift">
+            <div className="relative aspect-[3/4] border-2 border-white overflow-hidden bg-brand-purple animate-scale-in animate-delay-100 hover-lift">
               <Image src="/about/about_9.jpg" alt="Improvise 1" fill className="object-cover" />
               <div className="absolute bottom-2 right-2 text-white text-[10px] font-bold tracking-wider">
                 FES
@@ -173,7 +173,7 @@ export default function AboutPage() {
               </div>
             </div>
             {/* Bottom Right - Landscape */}
-            <div className="relative aspect-[4/3] border-2 border-brand-green overflow-hidden bg-brand-purple animate-scale-in animate-delay-400 hover-lift">
+            <div className="relative aspect-[4/3] border-2 border-white overflow-hidden bg-brand-purple animate-scale-in animate-delay-400 hover-lift">
               <Image src="/about/about_12.jpg" alt="Improvise 4 group" fill className="object-cover" />
               <div className="absolute bottom-2 right-2 text-white text-[10px] font-bold tracking-wider">
                 FES
@@ -197,13 +197,13 @@ export default function AboutPage() {
 
           {/* 2x2 Grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 md:gap-4 max-w-5xl mx-auto">
-            <div className="relative aspect-square animate-scale-in animate-delay-100 hover-lift border-2 border-brand-green">
+            <div className="relative aspect-square animate-scale-in animate-delay-100 hover-lift border-2 border-white">
               <Image src="/about/about_13.jpg" alt="Witch Hunt 1" fill className="object-cover" />
             </div>
             <div className="relative aspect-square animate-scale-in animate-delay-200 hover-lift border-2 border-white">
               <Image src="/about/about_14.jpg" alt="Witch Hunt 2" fill className="object-cover" />
             </div>
-            <div className="relative aspect-square animate-scale-in animate-delay-300 hover-lift border-2 border-brand-green">
+            <div className="relative aspect-square animate-scale-in animate-delay-300 hover-lift border-2 border-white">
               <Image src="/about/about_15.jpg" alt="Witch Hunt 3" fill className="object-cover" />
             </div>
             <div className="relative aspect-square animate-scale-in animate-delay-400 hover-lift border-2 border-white">
@@ -244,7 +244,7 @@ export default function AboutPage() {
           {/* Collage Layout */}
           <div className="grid md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 max-w-5xl mx-auto">
             {/* Large left image */}
-            <div className="relative min-h-[350px] sm:min-h-[450px] md:min-h-[600px] animate-slide-left hover-lift border-2 border-brand-green">
+            <div className="relative min-h-[350px] sm:min-h-[450px] md:min-h-[600px] animate-slide-left hover-lift border-2 border-white">
               <Image src="/about/about_17.jpg" alt="Dark Horse look up" fill className="object-cover" />
             </div>
             
@@ -253,7 +253,7 @@ export default function AboutPage() {
               <div className="relative min-h-[160px] sm:min-h-[220px] md:min-h-[280px] animate-scale-in animate-delay-200 hover-lift border-2 border-white">
                 <Image src="/about/about_18.jpg" alt="Dark Horse portrait" fill className="object-cover" />
               </div>
-              <div className="relative min-h-[160px] sm:min-h-[220px] md:min-h-[280px] animate-scale-in animate-delay-300 hover-lift border-2 border-brand-green">
+              <div className="relative min-h-[160px] sm:min-h-[220px] md:min-h-[280px] animate-scale-in animate-delay-300 hover-lift border-2 border-white">
                 <Image src="/about/about_19.jpg" alt="Dark Horse side" fill className="object-cover" />
               </div>
             </div>

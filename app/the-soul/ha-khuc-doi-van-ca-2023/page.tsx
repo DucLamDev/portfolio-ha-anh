@@ -41,7 +41,7 @@ export default function HaKhucDoiVanCaPage() {
           </div>
 
           {/* Main Guitar Image */}
-          <div className="max-w-5xl mx-auto mb-12 animate-scale-in animate-delay-400 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+          <div className="max-w-5xl mx-auto mb-12 animate-scale-in animate-delay-400 hover-lift border-2 border-white overflow-hidden rounded-sm">
             <Image
               src="/the-soul/anh3.jpg"
               alt="Playing red electric guitar on stage"
@@ -71,7 +71,7 @@ export default function HaKhucDoiVanCaPage() {
           </div>
 
           {/* Large Group Photo with MASHUP */}
-          <div className="max-w-6xl mx-auto mb-12 animate-scale-in animate-delay-300 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+          <div className="max-w-6xl mx-auto mb-12 animate-scale-in animate-delay-300 hover-lift border-2 border-white overflow-hidden rounded-sm">
             <Image
               src="/the-soul/anh6.jpg"
               alt="Large group photo with MASHUP sign"
@@ -95,7 +95,7 @@ export default function HaKhucDoiVanCaPage() {
             <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
               {/* Left: CAUTION LOUD MUSIC ZONE Sign */}
               <div className="flex justify-center animate-scale-in animate-delay-400">
-                <div className="relative w-full shadow-2xl border-2 border-brand-green rounded-sm overflow-hidden hover-lift">
+                <div className="relative w-full shadow-2xl border-2 border-white rounded-sm overflow-hidden hover-lift">
                   <Image
                     src="/the-soul/anh13.jpg"
                     alt="Caution Loud Music Zone Sign"
@@ -108,7 +108,7 @@ export default function HaKhucDoiVanCaPage() {
 
               {/* Right: DJ Sign */}
               <div className="flex justify-center animate-scale-in animate-delay-500">
-                <div className="relative w-full shadow-2xl border-2 border-brand-green rounded-sm overflow-hidden hover-lift">
+                <div className="relative w-full shadow-2xl border-2 border-white rounded-sm overflow-hidden hover-lift">
                   <Image
                     src="/the-soul/anh14.jpg"
                     alt="DJ Music Sign"

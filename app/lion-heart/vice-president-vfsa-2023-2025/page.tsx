@@ -38,7 +38,7 @@ export default function VicePresidentVFSAPage() {
 
             <div className="grid md:grid-cols-2 gap-4 mb-8">
               {/* Left Column - Magazine Cover */}
-              <div className="relative min-h-[500px] md:min-h-[700px] animate-slide-left hover-lift border-2 border-brand-green overflow-hidden">
+              <div className="relative min-h-[500px] md:min-h-[700px] animate-slide-left hover-lift border-2 border-white overflow-hidden">
                 <Image
                   src="/VFSA3/anh_1.jpg"
                   alt="Nguyen Thi Ha Anh - Head of Human Resources"
@@ -57,7 +57,7 @@ export default function VicePresidentVFSAPage() {
                     className="object-cover rounded-sm"
                   />
                 </div>
-                <div className="relative min-h-[240px] animate-slide-right animate-delay-300 hover-lift border-2 border-brand-green overflow-hidden">
+                <div className="relative min-h-[240px] animate-slide-right animate-delay-300 hover-lift border-2 border-white overflow-hidden">
                   <Image
                     src="/VFSA3/anh_2.jpg"
                     alt="VFSA Outdoor Activity"
@@ -116,7 +116,7 @@ export default function VicePresidentVFSAPage() {
 
           {/* Bottom Group Photo */}
           <div className="max-w-5xl mx-auto">
-            <div className="relative aspect-video w-full animate-scale-in animate-delay-200 hover-lift border-2 border-brand-green overflow-hidden">
+            <div className="relative aspect-video w-full animate-scale-in animate-delay-200 hover-lift border-2 border-white overflow-hidden">
                <Image
                   src="/VFSA3/anh_5.jpg"
                   alt="VFSA Group Photo"

@@ -39,7 +39,7 @@ export default function VolunteerVCOPPage() {
              <div className="grid md:grid-cols-2 gap-6 items-start">
                 {/* Left Column - Two Images Stacked */}
                 <div className="space-y-6 animate-slide-left">
-                   <div className="relative aspect-[4/3] shadow-2xl border-2 border-brand-green rounded-sm overflow-hidden hover-lift">
+                   <div className="relative aspect-[4/3] shadow-2xl border-2 border-white rounded-sm overflow-hidden hover-lift">
                       <Image
                          src="/lion-heart/lionheart_2.jpg"
                          alt="Handing out food"
@@ -47,7 +47,7 @@ export default function VolunteerVCOPPage() {
                          className="object-cover"
                       />
                    </div>
-                   <div className="relative aspect-[4/3] shadow-2xl border-2 border-brand-green rounded-sm overflow-hidden hover-lift">
+                   <div className="relative aspect-[4/3] shadow-2xl border-2 border-white rounded-sm overflow-hidden hover-lift">
                       <Image
                          src="/lion-heart/lionheart_23.jpg"
                          alt="Preparing food packages"
@@ -105,7 +105,7 @@ export default function VolunteerVCOPPage() {
 
           {/* Group Photo Section */}
           <div className="max-w-5xl mx-auto mb-12">
-             <div className="relative aspect-video w-full shadow-2xl rounded-sm overflow-hidden mb-12 animate-scale-in animate-delay-500 hover-lift border-2 border-brand-green">
+             <div className="relative aspect-video w-full shadow-2xl rounded-sm overflow-hidden mb-12 animate-scale-in animate-delay-500 hover-lift border-2 border-white">
                 <Image
                    src="/lion-heart/lionheart_21.jpg"
                    alt="VCOP Volunteer Group"

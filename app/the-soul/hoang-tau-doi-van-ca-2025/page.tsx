@@ -57,7 +57,7 @@ export default function HoangTauDoiVanCaPage() {
                   className="object-cover"
                 />
               </div>
-              <div className="relative aspect-video animate-slide-right hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+              <div className="relative aspect-video animate-slide-right hover-lift border-2 border-white overflow-hidden rounded-sm">
                 <Image
                   src="/the-soul/dhtvc/anh5.jpg"
                   alt="Band performing warm light"
@@ -77,7 +77,7 @@ export default function HoangTauDoiVanCaPage() {
                   className="object-cover"
                 />
               </div>
-              <div className="relative aspect-[3/4] animate-scale-in animate-delay-200 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+              <div className="relative aspect-[3/4] animate-scale-in animate-delay-200 hover-lift border-2 border-white overflow-hidden rounded-sm">
                 <Image
                   src="/the-soul/dhtvc/anh6.jpg"
                   alt="Friends backstage"
@@ -123,7 +123,7 @@ export default function HoangTauDoiVanCaPage() {
 
           {/* Bottom Group Photo */}
           <div className="max-w-4xl mx-auto mb-20 animate-scale-in animate-delay-400 hover-lift">
-            <div className="relative aspect-video border-2 border-brand-green overflow-hidden rounded-sm">
+            <div className="relative aspect-video border-2 border-white overflow-hidden rounded-sm">
               <Image
                 src="/the-soul/dhtvc/anh3.jpg"
                 alt="Hoàng Tấu full group"

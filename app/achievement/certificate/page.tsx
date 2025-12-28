@@ -20,7 +20,7 @@ export default function CertificatePage() {
   ]
 
   const portraitCerts = [
-    { img: '/achievement/anh5.jpg', title: 'Family Gender Stereotypes in Shaping Educational and Career Orientation of Ethnic Minority Girls in Vietnam', role: 'Co-author' },
+    { img: '/achievement/anh1.jpg', title: 'Utilizing the Theory of Planned Behaviour to evaluate the influence of cognitive bias and social media on the green consumption choices of Gen Z', role: 'Co-inventor / Awardee' },
     { img: '/achievement/anh2.jpg', title: 'International Invention & Trade Expo London (ITE)', role: 'Special Award' },
     { img: '/achievement/anh8.jpg', title: 'Positive Energy Spreading Contest – Season 6', role: 'Consolation Prize' },
   ]

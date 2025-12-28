@@ -42,13 +42,13 @@ export default function TheFifthNoteProjectPage() {
           {/* Two-column grid: Poster + Photo with flowers */}
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 mb-12">
             {/* Poster image */}
-            <div className="animate-slide-left hover-lift border-2 border-brand-green overflow-hidden rounded-sm shadow-2xl">
+            <div className="animate-slide-left hover-lift border-2 border-white overflow-hidden rounded-sm shadow-2xl">
               <Image
                 src="/the-soul/anh5.jpg"
                 alt="The Fifth Note poster"
                 width={800}
                 height={1000}
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
             
@@ -59,19 +59,19 @@ export default function TheFifthNoteProjectPage() {
                 alt="The Fifth Note team with flowers"
                 width={800}
                 height={1000}
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
 
           {/* Big stage photo */}
-          <div className="max-w-5xl mx-auto mb-12 animate-scale-in animate-delay-300 hover-lift border-2 border-brand-green overflow-hidden rounded-sm shadow-2xl">
+          <div className="max-w-5xl mx-auto mb-12 animate-scale-in animate-delay-300 hover-lift border-2 border-white overflow-hidden rounded-sm shadow-2xl">
             <Image
               src="/the-soul/anh4.jpg"
               alt="The Fifth Note live performance"
               width={1400}
               height={900}
-              className="w-full h-auto object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
 
@@ -92,18 +92,18 @@ export default function TheFifthNoteProjectPage() {
                 alt="The Fifth Note backstage preparation"
                 width={900}
                 height={600}
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
             {/* Audience watching */}
-            <div className="animate-slide-right hover-lift border-2 border-brand-green overflow-hidden rounded-sm shadow-2xl">
+            <div className="animate-slide-right hover-lift border-2 border-white overflow-hidden rounded-sm shadow-2xl">
               <Image
                 src="/the-soul/anh12.jpg"
                 alt="The Fifth Note audience watching performance"
                 width={900}
                 height={600}
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>

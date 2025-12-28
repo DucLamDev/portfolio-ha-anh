@@ -19,7 +19,7 @@ export default function FounderHealingTunesPage() {
           </div>
 
           {/* Sub‑line */}
-          <p className="max-w-3xl mx-auto text-[11px] md:text-xs text-center mb-6 animate-fade-in animate-delay-200">
+          <p className="flex-1 text-center text-lg md:text-2xl leading-relaxed">
             As I began building Healing Tunes, there were thought lingered in my mind:
           </p>
 
@@ -34,7 +34,7 @@ export default function FounderHealingTunesPage() {
 
           {/* Top 2 photos tilted like cards */}
           <div className="max-w-4xl mx-auto mb-16 flex flex-col md:flex-row items-center justify-center gap-8">
-            <div className="relative w-full max-w-md drop-shadow-2xl transform -rotate-3 animate-slide-left hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+            <div className="relative w-full max-w-md drop-shadow-2xl transform -rotate-3 animate-slide-left hover-lift border-2 border-white overflow-hidden rounded-sm">
               <Image
                 src="/lion-heart/lionheart_13.jpg"
                 alt="Healing Tunes kids 1"
@@ -67,7 +67,7 @@ export default function FounderHealingTunesPage() {
           <div className="max-w-5xl mx-auto mb-10">
             <div className="grid md:grid-cols-2 gap-8 items-start mb-8">
               {/* Left: Portrait image with better face visibility */}
-              <div className="relative w-full drop-shadow-2xl animate-scale-in animate-delay-200 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+              <div className="relative w-full drop-shadow-2xl animate-scale-in animate-delay-200 hover-lift border-2 border-white overflow-hidden rounded-sm">
                 <Image
                   src="/lion-heart/lionheart_14.jpg"
                   alt="Healing Tunes portrait"
@@ -105,7 +105,6 @@ export default function FounderHealingTunesPage() {
 
               <div className="text-sm md:text-base leading-relaxed space-y-4 animate-fade-in animate-delay-400 bg-brand-purple-dark/30 p-6 rounded-sm">
                 <p>I once went through a period of isolation and bullying at school. I deeply understand what it feels like to be treated as if you were invisible—unheard and misunderstood. When I discovered rock music, everything began to change. Through it, I found people who shared the same passions and individuality as I did. From that point on, I became more open, gradually learning to trust myself and gaining confidence in my own abilities.</p>
-                <p>Tớ từng trải qua một quãng thời gian bị cô lập và bắt nạt trong lớp học. Tớ thấu hiểu cảm giác bị đối xử như không khí, không được thấu hiểu và lắng nghe. Sau khi tìm được tới nhạc Rock, tớ bắt đầu tìm ra được những người bạn có chung sở thích và cá tính. Từ đó, tớ trở nên cởi mở hơn và tự tin vào năng lực của bản thân.</p>
                 <p>
                   Eventually, I realized that music could be that bridge - a tool through which I could support children with
                   developmental challenges. Music does more than heal; it connects, empowers, and brings people closer together.

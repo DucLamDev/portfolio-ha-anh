@@ -47,7 +47,7 @@ export default function VolunteerLibreriaPage() {
 
              {/* Tilted Images */}
              <div className="grid md:grid-cols-2 gap-8 mb-8 items-center">
-                <div className="relative aspect-video transform -rotate-3 hover:rotate-0 transition-transform duration-500 z-10 animate-slide-left hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+                <div className="relative aspect-video transform -rotate-3 hover:rotate-0 transition-transform duration-500 z-10 animate-slide-left hover-lift border-2 border-white overflow-hidden rounded-sm">
                    <Image
                       src="/lion-heart/lionheart_4.jpg"
                       alt="Children waving"
@@ -69,7 +69,7 @@ export default function VolunteerLibreriaPage() {
 
              {/* Books Image */}
              <div className="max-w-3xl mx-auto mt-8">
-                <div className="relative aspect-video animate-scale-in animate-delay-400 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+                <div className="relative aspect-video animate-scale-in animate-delay-400 hover-lift border-2 border-white overflow-hidden rounded-sm">
                    <Image
                       src="/lion-heart/lionheart_15.jpg"
                       alt="Sharing books"
@@ -100,7 +100,7 @@ export default function VolunteerLibreriaPage() {
                      className="w-full h-full object-cover rounded-sm"
                   />
                </div>
-               <div className="relative aspect-[4/3] animate-slide-right hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+               <div className="relative aspect-[4/3] animate-slide-right hover-lift border-2 border-white overflow-hidden rounded-sm">
                   <Image
                      src="/lion-heart/lionheart_18.jpg"
                      alt="Child writing"
@@ -138,7 +138,7 @@ export default function VolunteerLibreriaPage() {
                </p>
             </div>
 
-            <div className="relative aspect-video w-full mb-12 animate-scale-in animate-delay-500 hover-lift border-2 border-brand-green overflow-hidden rounded-sm">
+            <div className="relative aspect-video w-full mb-12 animate-scale-in animate-delay-500 hover-lift border-2 border-white overflow-hidden rounded-sm">
                <Image
                   src="/lion-heart/lionheart_19.jpg"
                   alt="Group photo"
