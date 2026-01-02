@@ -26,7 +26,7 @@ export default function CertificatePage() {
   ]
 
   const largePortraitCerts = [
-    { img: '/achievement/HAANH_WEB-49.png', title: 'Business Profile - Legacy Media', role: 'Creative Director.' },
+    { img: '/achievement/anh17.jpg', title: 'Business Profile - Legacy Media', role: 'Creative Director.' },
   ]
 
   const wideRecognitionCerts = [

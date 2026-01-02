@@ -87,7 +87,7 @@ export default function VicePresidentVFSAPage() {
                       alt="Megaphone icon"
                       width={256}
                       height={256}
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain -scale-x-100"
                    />
                 </div>
                 
@@ -95,7 +95,7 @@ export default function VicePresidentVFSAPage() {
                    <p className="text-white font-bold text-xl md:text-2xl leading-tight">
                     VFSA shaped my understanding of feminism:
                    </p>
-                   <p className="text-yellow-400 font-bold text-2xl md:text-3xl italic leading-tight">
+                   <p className="text-brand-green font-bold text-2xl md:text-3xl italic leading-tight">
                     "It is a movement to empower women - not a battle against men."
                    </p>
                 </div>

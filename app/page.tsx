@@ -128,7 +128,7 @@ export default function Home() {
                 <Image src="/imgae_add/HAANH_WEB-48.png" alt="Certificate decoration 1" width={288} height={288} className="object-contain opacity-80 animate-fade-in rotate-6 hover:rotate-0 transition-transform duration-500" />
               </div>
               <div className="absolute top-16 right-12 w-64 h-64 animate-float" style={{ animationDuration: '4s', animationDelay: '0.5s' }}>
-                <Image src="/imgae_add/HAANH_WEB-49.png" alt="Certificate decoration 2" width={256} height={256} className="object-contain opacity-70 animate-fade-in animate-delay-200 -rotate-6 hover:rotate-0 transition-transform duration-500" />
+                <Image src="/imgae_add/anh1.png" alt="Certificate decoration 2" width={256} height={256} className="object-contain opacity-70 animate-fade-in animate-delay-200 -rotate-6 hover:rotate-0 transition-transform duration-500" />
               </div>
               <div className="absolute top-32 right-6 w-56 h-56 animate-float" style={{ animationDuration: '5s', animationDelay: '1s' }}>
                 <Image src="/imgae_add/HAANH_WEB-48.png" alt="Certificate decoration 3" width={224} height={224} className="object-contain opacity-50 animate-fade-in animate-delay-400 rotate-12 hover:rotate-0 transition-transform duration-500" />

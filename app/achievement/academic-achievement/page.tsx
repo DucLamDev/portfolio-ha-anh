@@ -41,7 +41,16 @@ export default function AcademicAchievementPage() {
             </p>
             <div className="mt-6 bg-white p-4 shadow-xl inline-block hover-lift">
               <Image
-                src="/achievement/HAANH_WEB-42.png"
+                src="/achievement/anh15.jpg"
+                alt="ITE Gold Prize certificates"
+                width={420}
+                height={320}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+               <div className="mt-6 bg-white p-4 shadow-xl inline-block hover-lift">
+              <Image
+                src="/achievement/anh16.jpg"
                 alt="ITE Gold Prize certificates"
                 width={420}
                 height={320}

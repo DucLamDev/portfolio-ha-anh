@@ -59,7 +59,7 @@ export default function VolunteerVCOPPage() {
                 
                 {/* Right Column - Tall Poster */}
                 <div className="animate-slide-right">
-                   <div className="relative aspect-[3/4] shadow-2xl border-2 border-white rounded-sm overflow-hidden hover-lift">
+                   <div className="relative aspect-[3/4.65] shadow-2xl border-2 border-white rounded-sm overflow-hidden hover-lift">
                       <Image
                          src="/lion-heart/lionheart_22.jpg"
                          alt="Volunteer Poster"
