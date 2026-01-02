@@ -39,24 +39,28 @@ export default function AcademicAchievementPage() {
               choices. This competition opened my eyes to the fact that sustainable consumption requires the collective
               effort of an entire society - not just individual awareness.
             </p>
-            <div className="mt-6 bg-white p-4 shadow-xl inline-block hover-lift">
-              <Image
-                src="/achievement/anh15.jpg"
-                alt="ITE Gold Prize certificates"
-                width={420}
-                height={320}
-                className="w-full h-auto object-cover"
-              />
-            </div>
-               <div className="mt-6 bg-white p-4 shadow-xl inline-block hover-lift">
-              <Image
-                src="/achievement/anh16.jpg"
-                alt="ITE Gold Prize certificates"
-                width={420}
-                height={320}
-                className="w-full h-auto object-cover"
-              />
-            </div>
+   <div className="mt-6 flex gap-6">
+  <div className="bg-white p-4 shadow-xl inline-block hover-lift">
+    <Image
+      src="/achievement/anh15.jpg"
+      alt="ITE Gold Prize certificates"
+      width={420}
+      height={320}
+      className="w-full h-auto object-cover"
+    />
+  </div>
+
+  <div className="bg-white p-4 shadow-xl inline-block hover-lift">
+    <Image
+      src="/achievement/anh16.jpg"
+      alt="ITE Gold Prize certificates"
+      width={420}
+      height={320}
+      className="w-full h-auto object-cover"
+    />
+  </div>
+</div>
+
             <Link 
               href="https://drive.google.com/file/d/1uh0s3iayWlwpCqyB85A0g5qvJVW4KVKR/view?usp=drive_link"
               target="_blank"
