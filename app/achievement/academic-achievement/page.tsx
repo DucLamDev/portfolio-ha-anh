@@ -162,7 +162,7 @@ export default function AcademicAchievementPage() {
             </p>
             <div className="mt-6 bg-white p-4 shadow-xl inline-block w-full max-w-[500px] hover-lift">
               <Image
-                src="/achievement/anh8.jpg"
+                src="/achievement/anh18.jpg"
                 alt="Tuoi Tre spreading positive energy contest"
                 width={500}
                 height={320}

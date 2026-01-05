@@ -13,16 +13,18 @@ export default function CertificatePage() {
   const mediumLandscapeCerts = [
     { img: '/achievement/anh6.jpg', title: 'Project Initiation: Starting a Successful Project', role: 'Course Participant / Learner' },
     { img: '/achievement/anh4.jpg', title: 'Foundations of Project Management', role: 'Course Participant / Learner' },
+    { img: '/achievement/anh19.jpg', title: 'Project Planning: Putting It All Together', role: 'Course Participant / Learner' },
     { img: '/achievement/achievement_1.jpg', title: 'Xom Hoa Hoa (ICEP Hanoi Classy JSC)', role: 'Ambassador (Đại sứ)' },
     { img: '/achievement/achievement_2.jpg', title: 'IOGT-VN', role: 'Trainee' },
     { img: '/achievement/achievement_3.jpg', title: 'Vietnamese Female Students Association (VFSA)', role: 'The Head of Human Resources Department' },
     { img: '/achievement/achievement_4.jpg', title: 'Trung tâm Phục hồi chức năng người khuyết tật Thụy An', role: 'Tình nguyện viên' },
+    { img: '/achievement/anh20.jpg', title: 'Ho Chi Minh Communist Youth Union of Dong Da District', role: 'Member of Youth Union Branch 10D1 - Phan Huy Chu High School' },
   ]
 
   const portraitCerts = [
     { img: '/achievement/anh1.jpg', title: 'Utilizing the Theory of Planned Behaviour to evaluate the influence of cognitive bias and social media on the green consumption choices of Gen Z', role: 'Co-inventor / Awardee' },
     { img: '/achievement/anh2.jpg', title: 'International Invention & Trade Expo London (ITE)', role: 'Special Award' },
-    { img: '/achievement/anh8.jpg', title: 'Positive Energy Spreading Contest – Season 6', role: 'Consolation Prize' },
+    { img: '/achievement/anh18.jpg', title: 'Positive Energy Spreading Contest – Season 6', role: 'Consolation Prize' },
   ]
 
   const largePortraitCerts = [
@@ -146,17 +148,6 @@ export default function CertificatePage() {
                 </div>
               ))}
             </div>
-          </div>
-
-          {/* Google Drive Link */}
-          <div className="mt-16 text-center">
-            <Link 
-              href="https://drive.google.com/file/d/1gq56olkesPt8woOBTp3T62Zx_bq8Jha_/view?usp=drive_link"
-              target="_blank"
-              className="inline-block text-brand-green underline underline-offset-4 hover:text-brand-green/80 transition-colors font-semibold text-lg animate-pulse"
-            >
-              📁 VIEW ALL CERTIFICATES ON GOOGLE DRIVE
-            </Link>
           </div>
         </div>
       </section>

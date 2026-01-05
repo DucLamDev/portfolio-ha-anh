@@ -37,7 +37,7 @@ export default function AboutPage() {
           src="/about/about_21.png" 
           alt="Halftone decoration" 
           fill 
-          className="object-cover object-top rounded-lg" // Sử dụng object-cover và lấy trọng tâm phía trên
+          className="object-cover object-top rounded-lg border-2 border-white" // Sử dụng object-cover và lấy trọng tâm phía trên
           quality={100} 
           priority 
         />

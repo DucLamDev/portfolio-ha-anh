@@ -8,6 +8,7 @@ export default function LionHeartPage() {
     {
       slug: 'president-fempower-2025',
       titleLines: ['PRESIDENT - FEMPOWER (2025)'],
+      fbLink: 'https://www.facebook.com/FemPower101',
       description:
         'That story left a profound impression on me - made even more remarkable by the fact that it was my father who shared it. In that moment, I gained a deeper appreciation for my mother\'s determination and resilience. I also grew more aware of the injustices she had endured. At the same time, my father\'s recognition of her strength renewed my hope for gender equality and reinforced my commitment to advocating for women\'s rights.',
       image: '/lion-heart/lionheart_1.jpg',
@@ -15,6 +16,7 @@ export default function LionHeartPage() {
     {
       slug: 'founder-healing-tunes-2025',
       titleLines: ['FOUNDER - HEALING TUNES (2025)'],
+      fbLink: 'https://www.facebook.com/healingtunes',
       description:
         'Eventually, I realized that music could be that bridge - a tool through which I could support children with developmental challenges. Music does more than heal; it connects, empowers, and brings people closer together. That belief became the inspiration behind the creation of Healing Tunes.',
       image: '/home/home_6.jpg',
@@ -22,6 +24,7 @@ export default function LionHeartPage() {
     {
       slug: 'vice-president-vfsa-2023-2025',
       titleLines: ['VICE PRESIDENT - VIETNAMESE FEMALE ASSOCIATION (VFSA) (2023 - 2025)'],
+      fbLink: 'https://www.facebook.com/vnsfemaleassociationhighschool',
       description:
         'VFSA has been one of the foundations that shaped me - professionally, personally, and intellectually. As a community known for empowering young women, it was where I found supportive peers who shared the same values and aspirations.',
       image: '/lion-heart/lionheart_6.jpg',
@@ -29,6 +32,7 @@ export default function LionHeartPage() {
     {
       slug: 'volunteer-libreria-2024-2025',
       titleLines: ['VOLUNTEER AT LIBRERIA (2024 - 2025)'],
+      fbLink: 'https://www.facebook.com/search/top?q=libreria%20project',
       description:
         'Traveling nearly 200 kilometers to Yên Bái, our team arrived at the Ethnic Minority Boarding Lower Secondary School - where we were welcomed by the warmest, brightest smiles of the children there.',
       image: '/lion-heart/lionheart_4.jpg',
@@ -36,6 +40,7 @@ export default function LionHeartPage() {
     {
       slug: 'volunteer-vcop-2023',
       titleLines: ['VOLUNTEER AT VCOP (2023)'],
+      fbLink: 'https://www.facebook.com/volunteerclubofphanhuychu.vcop.est2023',
       description:
         'Joining the Volunteer Club of Phan Huy Chú, I had the opportunity to visit the Vietnam Acupuncture Hospital for a charity activity. My friends and I handed out free portions of rice, porridge, and milk to patients in difficult circumstances.',
       image: '/lion-heart/lionheart_2.jpg',
@@ -54,7 +59,7 @@ export default function LionHeartPage() {
               <div className="h-3 sm:h-4 w-40 sm:w-48 md:w-56 bg-brand-green mb-3 sm:mb-4" />
 
               {/* Heading lines */}
-              <Link href={`/lion-heart/${section.slug}`} className="block mb-4 sm:mb-5 md:mb-6 hover:opacity-80 transition-opacity">
+              <a href={section.fbLink} target="_blank" rel="noopener noreferrer" className="block mb-4 sm:mb-5 md:mb-6 hover:opacity-80 transition-opacity">
                 <div className="space-y-1">
                   {section.titleLines.map((line) => (
                     <h2
@@ -65,7 +70,7 @@ export default function LionHeartPage() {
                     </h2>
                   ))}
                 </div>
-              </Link>
+              </a>
 
               {/* White content card */}
               <div className="grid md:grid-cols-[0.9fr,1.1fr] bg-white text-black shadow-lg hover-lift">

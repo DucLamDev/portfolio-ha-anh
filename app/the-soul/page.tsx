@@ -8,18 +8,21 @@ export default function TheSoulPage() {
     {
       slug: 'the-fifth-note-project-2025',
       title: 'THE FIFTH NOTE PROJECT - 2025',
+      fbLink: 'https://www.facebook.com/TheFifthNoteProject',
       image: '/the-soul/anh5.jpg',
       text: "For me, this show was a special one. I wasn’t just an artist standing on stage like usual. This time, I carried a different role in music – I was the Project Vice Leader, the person everyone could lean on.",
     },
     {
       slug: 'hoang-tau-doi-van-ca-2025',
       title: 'HOANG TAU - DOI VAN CA - 2025',
+      fbLink: 'https://www.facebook.com/doivancaphc',
       image: '/the-soul/anh1.jpg',
       text: 'When that question came, it felt like everything paused for a moment. I hesitated, then quietly answered no. Being in my final years of high school means the pressure is heavier than ever, and there are so many things I need to focus on.',
     },
     {
       slug: 'ha-khuc-doi-van-ca-2023',
       title: 'HA KHUC - DOI VAN CA - 2023',
+      fbLink: 'https://www.facebook.com/doivancaphc',
       image: '/the-soul/anh3.jpg',
       text: 'Trembling, anxious, hitting the wrong rhythm again and again – that was me in my very first rehearsal with my band, Đội Văn Ca. I was afraid to admit that I didn’t know enough, afraid of dragging everyone down.',
     },
@@ -35,9 +38,9 @@ export default function TheSoulPage() {
 
           {sections.map((item, idx) => (
             <article key={item.slug} className={`mb-12 sm:mb-14 md:mb-16 last:mb-0 animate-slide-up animate-delay-${idx > 0 ? (idx * 100) : '100'}`}>
-              <Link href={`/the-soul/${item.slug}`} className="block hover:opacity-80 transition-opacity">
+              <a href={item.fbLink} target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
                 <h2 className="metal-heading-lg text-brand-green mb-4 sm:mb-5 md:mb-6 text-left">{item.title}</h2>
-              </Link>
+              </a>
 
               <div className="grid md:grid-cols-[1.1fr,0.9fr] bg-white text-black shadow-lg hover-lift">
                 {/* Image left */}

@@ -47,7 +47,15 @@ export default function PresidentFempowerPage() {
               strength renewed my hope for gender equality and reinforced my commitment to advocating for women&apos;s rights.
             </p>
           </div>
-
+          <div className="max-w-4xl mx-auto mb-12 animate-scale-in animate-delay-300 hover-lift border-2 border-white overflow-hidden rounded-sm">
+            <Image
+              src="/lion-heart/anh24.jpg"
+              alt="FemPower group"
+              width={1200}
+              height={800}
+              className="w-full h-auto object-cover"
+            />
+          </div>
           <p className="max-w-4xl mx-auto text-center font-bold text-brand-green italic text-xl md:text-2xl mb-10 animate-slide-up animate-delay-500">
             This became the foundation on which FemPower was created.
           </p>

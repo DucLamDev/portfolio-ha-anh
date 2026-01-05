@@ -25,8 +25,8 @@ export default function HoangTauDoiVanCaPage() {
 
           {/* Quote block */}
           <div className="text-center mb-16 space-y-3 animate-fade-in animate-delay-200">
-            <p className="text-yellow-400 font-bold text-xl md:text-2xl italic">"Music is companionship</p>
-            <p className="text-yellow-400 font-bold text-xl md:text-2xl italic">- a journey we choose to take together."</p>
+            <p className="text-brand-green font-bold text-xl md:text-2xl italic">"Music is companionship</p>
+            <p className="text-brand-green font-bold text-xl md:text-2xl italic">- a journey we choose to take together."</p>
           </div>
 
           {/* Will you perform quote - moved up */}
