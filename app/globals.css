@@ -14,6 +14,13 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* Make italic text more slanted */
+  .italic, em, i {
+    font-style: italic;
+    transform: skewX(-6deg);
+    display: inline-block;
+  }
 }
 
 @layer utilities {

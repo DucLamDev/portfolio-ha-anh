@@ -19,6 +19,7 @@ export default function CertificatePage() {
     { img: '/achievement/achievement_3.jpg', title: 'Vietnamese Female Students Association (VFSA)', role: 'The Head of Human Resources Department' },
     { img: '/achievement/achievement_4.jpg', title: 'Trung tâm Phục hồi chức năng người khuyết tật Thụy An', role: 'Tình nguyện viên' },
     { img: '/achievement/anh20.jpg', title: 'Ho Chi Minh Communist Youth Union of Dong Da District', role: 'Member of Youth Union Branch 10D1 - Phan Huy Chu High School' },
+    { img: '/achievement/anh34.jpg', title: 'Mea Hanoi Project', role: 'Ambassador for the "Thanh Vong" event' }
   ]
 
   const portraitCerts = [
@@ -35,6 +36,24 @@ export default function CertificatePage() {
     { img: '/achievement/achievement_5.png', title: 'FemPower', role: 'Founder / President' },
     { img: '/achievement/achievement_6.png', title: 'The Fifth Note (Showcase "Hòa sắc cá nhân")', role: 'Co-host' },
     { img: '/achievement/achievement_7.png', title: 'Healing Tunes', role: 'Founder' },
+  ]
+
+  const additionalCerts = [
+    { img: '/achievement/anh29.jpg', title: 'Đội Văn Ca PHC (PHC Choir Team)', role: 'Member of Communications Department (Gen 9.0)' },
+    { img: '/achievement/anh24.jpg', title: 'Volunteer Club of Phan Huy Chú (VCOP)', role: 'Member of Logistics and Human Resources Department (Gen 1.0)' },
+    { img: '/achievement/anh25.jpg', title: 'Vietnamese Female Students Association (V-FSA)', role: 'Head of Human Resources Department (Season 3)' },
+    { img: '/achievement/anh28.jpg', title: 'Vietnamese Female Students Association (V-FSA)', role: 'Member of Human Resources Department (Stage 1 - Season 2)' },
+    { img: '/achievement/anh26.jpg', title: 'WITH Project (sponsored by HOLA Academy)', role: 'Member of Social Sciences Department (Season IV - Phase 2)' },
+    { img: '/achievement/anh23.jpg', title: 'The Fifth Note', role: 'Co-host of the 1st live showcase "Hòa sắc cá nhân - Âm nhạc kết nối cá tính"' },
+    { img: '/achievement/anh22.jpg', title: 'FemPower', role: 'Founder / President' },
+    { img: '/achievement/anh27.jpg', title: 'Students\' Association of Philanthropy (under Volunteer for Education - V.E.O)', role: 'Member of Human Resources (Stage 1 - Season 1)' },
+    { img: '/achievement/anh30.jpg', title: '"Vệt màu mơ" Project (sponsored by HOLA Academy)', role: 'Member of Logistics Department' },
+    { img: '/achievement/anh21.jpg', title: 'Healing Tunes', role: 'Founder (Certified on September 25, 2025)' },
+    { img: '/achievement/anh37.jpg', title: 'The Guardian Vietnam', role: 'Contributor to the series "Lãng Nhiên"' },
+    { img: '/achievement/ANH36.jpg', title: 'Esight.vn', role: 'Participant in the "Hope" talk show' },
+    { img: '/achievement/anh31.jpg', title: '"Nguyệt Vũ" Project (sponsored by HOLA Academy)', role: 'Member of Logistics department' },
+    { img: '/achievement/ANH351.jpg', title: 'Esight.vn / Volunteer for Education (V.E.O)', role: '"Hope" talk show Ambassador' },
+    { img: '/achievement/anh32.jpg', title: '"Hoạt Lãng" Project (sponsored by HOLA Academy)', role: 'Member of Logistics department' },
   ]
 
   return (
@@ -140,6 +159,96 @@ export default function CertificatePage() {
                 <div key={idx} className="animate-slide-up" style={{ animationDelay: `${(idx + 12) * 100}ms` }}>
                   <div className="bg-white p-3 shadow-xl hover-lift mb-3">
                     <Image src={cert.img} alt={`${cert.title} - ${cert.role}`} width={600} height={400} className="w-full h-auto object-cover" />
+                  </div>
+                  <div className="text-center">
+                    <p className="text-brand-green font-bold text-sm md:text-base mb-1">{cert.title}</p>
+                    <p className="text-gray-300 text-xs md:text-sm">{cert.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Row 7: Additional Certificates - First Row (3 items) */}
+            <div className="grid md:grid-cols-3 gap-8">
+              {additionalCerts.slice(0, 3).map((cert, idx) => (
+                <div key={idx} className="animate-slide-up" style={{ animationDelay: `${(idx + 15) * 100}ms` }}>
+                  <div className="bg-white p-3 shadow-xl hover-lift mb-3">
+                    <Image src={cert.img} alt={`${cert.title} - ${cert.role}`} width={500} height={400} className="w-full h-auto object-cover" />
+                  </div>
+                  <div className="text-center">
+                    <p className="text-brand-green font-bold text-sm md:text-base mb-1">{cert.title}</p>
+                    <p className="text-gray-300 text-xs md:text-sm">{cert.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Row 8: Additional Certificates - Second Row (3 items) */}
+            <div className="grid md:grid-cols-3 gap-8">
+              {additionalCerts.slice(3, 6).map((cert, idx) => (
+                <div key={idx} className="animate-slide-up" style={{ animationDelay: `${(idx + 18) * 100}ms` }}>
+                  <div className="bg-white p-3 shadow-xl hover-lift mb-3">
+                    <Image src={cert.img} alt={`${cert.title} - ${cert.role}`} width={500} height={400} className="w-full h-auto object-cover" />
+                  </div>
+                  <div className="text-center">
+                    <p className="text-brand-green font-bold text-sm md:text-base mb-1">{cert.title}</p>
+                    <p className="text-gray-300 text-xs md:text-sm">{cert.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Row 9: Additional Certificates - Third Row (3 items) */}
+            <div className="grid md:grid-cols-3 gap-8">
+              {additionalCerts.slice(6, 9).map((cert, idx) => (
+                <div key={idx} className="animate-slide-up" style={{ animationDelay: `${(idx + 21) * 100}ms` }}>
+                  <div className="bg-white p-3 shadow-xl hover-lift mb-3">
+                    <Image src={cert.img} alt={`${cert.title} - ${cert.role}`} width={500} height={400} className="w-full h-auto object-cover" />
+                  </div>
+                  <div className="text-center">
+                    <p className="text-brand-green font-bold text-sm md:text-base mb-1">{cert.title}</p>
+                    <p className="text-gray-300 text-xs md:text-sm">{cert.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Row 10: Additional Certificates - Fourth Row (3 items) */}
+            <div className="grid md:grid-cols-3 gap-8">
+              {additionalCerts.slice(9, 12).map((cert, idx) => (
+                <div key={idx} className="animate-slide-up" style={{ animationDelay: `${(idx + 24) * 100}ms` }}>
+                  <div className="bg-white p-3 shadow-xl hover-lift mb-3">
+                    <Image src={cert.img} alt={`${cert.title} - ${cert.role}`} width={500} height={400} className="w-full h-auto object-cover" />
+                  </div>
+                  <div className="text-center">
+                    <p className="text-brand-green font-bold text-sm md:text-base mb-1">{cert.title}</p>
+                    <p className="text-gray-300 text-xs md:text-sm">{cert.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Row 11: Additional Certificates - Fifth Row (3 items) */}
+            <div className="grid md:grid-cols-3 gap-8">
+              {additionalCerts.slice(12, 15).map((cert, idx) => (
+                <div key={idx} className="animate-slide-up" style={{ animationDelay: `${(idx + 27) * 100}ms` }}>
+                  <div className="bg-white p-3 shadow-xl hover-lift mb-3">
+                    <Image src={cert.img} alt={`${cert.title} - ${cert.role}`} width={500} height={400} className="w-full h-auto object-cover" />
+                  </div>
+                  <div className="text-center">
+                    <p className="text-brand-green font-bold text-sm md:text-base mb-1">{cert.title}</p>
+                    <p className="text-gray-300 text-xs md:text-sm">{cert.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Row 12: Additional Certificates - Last Row (2 items) */}
+            <div className="grid md:grid-cols-3 gap-8">
+              {additionalCerts.slice(15).map((cert, idx) => (
+                <div key={idx} className="animate-slide-up" style={{ animationDelay: `${(idx + 30) * 100}ms` }}>
+                  <div className="bg-white p-3 shadow-xl hover-lift mb-3">
+                    <Image src={cert.img} alt={`${cert.title} - ${cert.role}`} width={500} height={400} className="w-full h-auto object-cover" />
                   </div>
                   <div className="text-center">
                     <p className="text-brand-green font-bold text-sm md:text-base mb-1">{cert.title}</p>

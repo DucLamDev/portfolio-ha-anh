@@ -8,43 +8,69 @@ export default function AboutPage() {
       <Navbar />
 
       {/* ABOUT ME Section */}
-      <section className="pt-20 sm:pt-24 md:pt-28 pb-12 sm:pb-14 md:pb-16 relative overflow-hidden">
-  <div className="max-w-6xl mx-auto px-4 sm:px-6">
-    <h1 className="metal-heading-xl text-brand-green mb-6 sm:mb-8 md:mb-10 animate-scale-in">ABOUT ME</h1>
-    
-    <div className="grid md:grid-cols-[1.5fr,1fr] gap-6 sm:gap-8 items-center">
-      <div className="text-sm md:text-base leading-relaxed text-white space-y-3 sm:space-y-4 text-left animate-fade-in animate-delay-200">
+<section className="pt-20 sm:pt-24 md:pt-28 pb-16 relative overflow-hidden">
+  <div className="max-w-6xl mx-auto">
+
+    {/* TITLE */}
+    <div className="px-4 sm:px-6 mb-10">
+      <h1 className="metal-heading-xl text-brand-green animate-scale-in">
+        ABOUT ME
+      </h1>
+    </div>
+
+    {/* GRID */}
+    <div className="grid md:grid-cols-[1.6fr,1fr] gap-10 items-start">
+
+      {/* TEXT */}
+      <div
+        className="
+          px-4 sm:px-6 md:px-0
+          text-sm md:text-base
+          leading-relaxed md:leading-loose
+          text-white
+          space-y-5 md:space-y-6
+          animate-fade-in animate-delay-200
+        "
+      >
         <p>
           Looking back on my journey, I&apos;ve realized that every small photoshoot has become a clear record of my
-          personal growth - both inside and out. Cutting my hair short was a turning point, marking a milestone in my
+          personal growth – both inside and out. Cutting my hair short was a turning point, marking a milestone in my
           transition into adulthood. From a girl who once felt insecure about her appearance, I have grown braver and more
           confident in doing what I truly want.
         </p>
+
         <p>
           My sense of &quot;breaking the mold&quot; doesn&apos;t come from temporary rebellion, but from a desire to embrace my
-          uniqueness and live authentically - free from the fear of social expectations.
+          uniqueness and live authentically – free from the fear of social expectations.
         </p>
+
         <p>
           These are the styles and colors that have shaped and reshaped who I am throughout my three years of high school.
           Each photoshoot carries its own story, tied to a specific chapter of my life.
         </p>
       </div>
 
-      {/* Phần ảnh đã chỉnh sửa */}
-      <div className="hidden md:block relative w-full h-[500px] lg:h-[650px] animate-fade-in shadow-2xl" 
-           style={{ filter: 'drop-shadow(0 10px 40px rgba(0, 0, 0, 0.8))' }}>
-        <Image 
-          src="/about/about_21.png" 
-          alt="Halftone decoration" 
-          fill 
-          className="object-cover object-top rounded-lg border-2 border-white" // Sử dụng object-cover và lấy trọng tâm phía trên
-          quality={100} 
-          priority 
+      {/* IMAGE */}
+      <div
+        className="hidden md:block relative w-full h-[480px] lg:h-[520px] animate-fade-in"
+        style={{ filter: 'drop-shadow(0 12px 40px rgba(0,0,0,0.8))' }}
+      >
+        <Image
+          src="/about/about_21.png"
+          alt="About me portrait"
+          fill
+          className="object-cover object-top rounded-xl border-2 border-white"
+          quality={100}
+          priority
         />
       </div>
+
     </div>
   </div>
 </section>
+
+
+
 
       {/* TIME Section */}
       <section className="py-12 sm:py-14 md:py-16 relative overflow-hidden">

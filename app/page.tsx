@@ -142,18 +142,26 @@ export default function Home() {
 
       {/* The Pursuit of Happyness Section */}
       <section className="bg-brand-purple py-12 sm:py-16 md:py-20 text-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6">
-          <div className="space-y-4 sm:space-y-6 md:space-y-8 animate-slide-up">
-            <h2 className="metal-heading-xl text-brand-green leading-tight">
-              <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-8xl">THE PURSUIT</span>
-              <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-8xl">OF HAPPINESS</span>
-            </h2>
-            <p className="text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl">
-              A deep respect for every individual has shaped my aspiration to contribute to a more compassionate and equitable society - one that genuinely supports those in vulnerable circumstances. Through <span className="text-brand-green font-bold">varied volunteer engagements across different communities</span>, I've encountered stories of resilience and hardship that have broadened my perspective. These experiences have strengthened my appreciation for life and fueled my commitment to spreading positive values and creating meaningful impact.
-            </p>
-            <Link href="/lion-heart" className="inline-block bg-brand-purple border-2 border-white px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base text-white hover:bg-white hover:text-brand-purple transition-all font-semibold hover:scale-105">
-              Read More
-            </Link>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="grid md:grid-cols-[1fr,auto] gap-8 sm:gap-10 items-center">
+            <div className="space-y-4 sm:space-y-6 md:space-y-8 animate-slide-up">
+              <h2 className="metal-heading-xl text-brand-green leading-tight">
+                <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-8xl">THE PURSUIT</span>
+                <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-8xl">OF HAPPINESS</span>
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl">
+                A deep respect for every individual has shaped my aspiration to contribute to a more compassionate and equitable society - one that genuinely supports those in vulnerable circumstances. Through <span className="text-brand-green font-bold">varied volunteer engagements across different communities</span>, I've encountered stories of resilience and hardship that have broadened my perspective. These experiences have strengthened my appreciation for life and fueled my commitment to spreading positive values and creating meaningful impact.
+              </p>
+              <Link href="/lion-heart" className="inline-block bg-brand-purple border-2 border-white px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base text-white hover:bg-white hover:text-brand-purple transition-all font-semibold hover:scale-105">
+                Read More
+              </Link>
+            </div>
+            {/* Animated decorative images */}
+            <div className="hidden md:block relative w-72 h-80">
+              <div className="absolute top-0 right-0 w-64 h-64 animate-float" style={{ animationDuration: '3.5s' }}>
+                <Image src="/imgae_add/anh1.png" alt="Volunteer decoration 1" width={256} height={256} className="object-contain opacity-80 animate-fade-in rotate-6 hover:rotate-0 transition-transform duration-500" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -168,26 +176,41 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="relative animate-slide-up animate-delay-200 mb-6 sm:mb-8">
-            {/* Collage Layout - adjusted to prevent cutoff */}
-            <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 max-w-4xl">
-              <div className="col-span-2 overflow-hidden rounded-sm hover-lift border-2 border-white">
-                <Image src="/home/home_4.jpg" alt="Soul Knight performance" width={800} height={400} className="w-full h-auto object-cover animate-scale-in" />
+          <div className="grid lg:grid-cols-[1fr,auto] gap-8 items-start">
+            <div className="relative animate-slide-up animate-delay-200 mb-6 sm:mb-8">
+              {/* Collage Layout - adjusted to prevent cutoff */}
+              <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4">
+                <div className="col-span-2 overflow-hidden rounded-sm hover-lift border-2 border-white">
+                  <Image src="/home/home_4.jpg" alt="Soul Knight performance" width={800} height={400} className="w-full h-auto object-cover animate-scale-in" />
+                </div>
+                <div className="overflow-hidden rounded-sm hover-lift border-2 border-white">
+                  <Image src="/home/home_7.jpg" alt="Music session" width={400} height={500} className="w-full h-full object-cover animate-fade-in" />
+                </div>
+                <div className="overflow-hidden rounded-sm hover-lift border-2 border-white">
+                  <Image src="/home/home_6.jpg" alt="Guitar practice" width={400} height={500} className="w-full h-full object-cover animate-fade-in" />
+                </div>
               </div>
-              <div className="overflow-hidden rounded-sm hover-lift border-2 border-white">
-                <Image src="/home/home_7.jpg" alt="Music session" width={400} height={500} className="w-full h-full object-cover animate-fade-in" />
-              </div>
-              <div className="overflow-hidden rounded-sm hover-lift border-2 border-white">
-                <Image src="/home/home_6.jpg" alt="Guitar practice" width={400} height={500} className="w-full h-full object-cover animate-fade-in" />
+              
+              {/* Read More button */}
+              <div className="flex justify-start mt-6 sm:mt-8">
+                <Link href="/the-soul" className="inline-block bg-brand-purple border-2 border-white px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base text-white hover:bg-white hover:text-brand-purple transition-all font-semibold hover:scale-105">
+                  Read More
+                </Link>
               </div>
             </div>
-          </div>
-          
-          {/* Read More button */}
-          <div className="flex justify-start max-w-4xl">
-            <Link href="/the-soul" className="inline-block bg-brand-purple border-2 border-white px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base text-white hover:bg-white hover:text-brand-purple transition-all font-semibold hover:scale-105">
-              Read More
-            </Link>
+
+            {/* Animated decorative music images */}
+            <div className="hidden lg:block relative w-64 h-96">
+              <div className="absolute top-0 right-0 w-56 h-56 animate-float" style={{ animationDuration: '4s' }}>
+                <Image src="/imgae_add/HAANH_WEB-65.png" alt="Music decoration 1" width={224} height={224} className="object-contain opacity-80 animate-fade-in rotate-12 hover:rotate-0 transition-transform duration-500" />
+              </div>
+              {/* <div className="absolute top-24 right-8 w-48 h-48 animate-float" style={{ animationDuration: '5s', animationDelay: '1s' }}>
+                <Image src="/imgae_add/HAANH_WEB-86.png" alt="Music decoration 2" width={192} height={192} className="object-contain opacity-70 animate-fade-in animate-delay-300 -rotate-12 hover:rotate-0 transition-transform duration-500" />
+              </div>
+              <div className="absolute top-48 right-4 w-40 h-40 animate-float" style={{ animationDuration: '4.5s', animationDelay: '0.5s' }}>
+                <Image src="/imgae_add/star.png" alt="Music decoration 3" width={160} height={160} className="object-contain opacity-60 animate-fade-in animate-delay-500 rotate-6 hover:rotate-0 transition-transform duration-500" />
+              </div> */}
+            </div>
           </div>
         </div>
       </section>

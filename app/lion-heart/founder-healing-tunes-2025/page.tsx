@@ -19,14 +19,14 @@ export default function FounderHealingTunesPage() {
           </div>
 
           {/* Sub‑line */}
-          <p className="flex-1 text-center text-lg md:text-2xl leading-relaxed">
+          <p className="flex-1 text-center text-base md:text-lg leading-relaxed text-white/80 mb-2">
             As I began building Healing Tunes, there were thought lingered in my mind:
           </p>
 
           {/* Intro quote with big quotation marks */}
           <div className="max-w-4xl mx-auto flex items-start justify-center gap-4 md:gap-6 mb-12 animate-slide-up animate-delay-300">
             <span className="text-5xl md:text-6xl text-brand-green leading-none mt-2">“</span>
-            <p className="flex-1 text-center text-lg italic md:text-2xl leading-relaxed">
+            <p className="flex-1 text-center text-xl italic md:text-3xl leading-relaxed font-semibold text-white">
               There are children with brilliant inner universes that, heartbreakingly, the world may never get to see.
             </p>
             <span className="text-5xl md:text-6xl text-brand-green leading-none mt-2">”</span>
