@@ -40,7 +40,7 @@ export default function VolunteerLibreriaPage() {
           </div>
 
           {/* Signatures Quote Section */}
-          <div className="max-w-5xl mx-auto mb-16 relative">
+          <div className="max-w-5xl mx-auto text-center mb-16 relative">
              <h2 className="text-white font-bold text-3xl md:text-5xl text-center mb-12 relative z-10 animate-slide-up animate-delay-300 italic">
               “ Can we have your signatures, <br /> please? ”
              </h2>

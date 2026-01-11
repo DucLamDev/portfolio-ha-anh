@@ -119,10 +119,13 @@ export default function FounderHealingTunesPage() {
           </div>
 
           {/* Closing sentence */}
+          <div className="text-center">
+
           <p className="max-w-3xl mx-auto text-center font-semibold text-white italic text-sm md:text-base animate-slide-up animate-delay-500">
             Seeing their smiles, I realized that music is a universal language of empathy – a form of sharing and emotional
             connection that transcends barriers.
           </p>
+          </div>
         </div>
       </section>
 

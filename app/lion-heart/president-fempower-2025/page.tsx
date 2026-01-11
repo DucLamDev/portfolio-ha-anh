@@ -18,7 +18,7 @@ export default function PresidentFempowerPage() {
           </h1>
 
           {/* Big quote */}
-          <div className="max-w-4xl mx-auto flex items-start justify-center gap-4 md:gap-6 mb-12 animate-slide-up animate-delay-200">
+          <div className="max-w-4xl mx-auto flex items-center justify-center gap-4 md:gap-6 mb-12 animate-slide-up animate-delay-200">
             <span className="text-5xl md:text-6xl text-brand-green leading-none mt-2">"</span>
             <p className="flex-1 text-center text-lg md:text-2xl leading-relaxed italic">
               My grandmother once forbade my mother from attending high school. Yet she taught herself, studied on her own,
@@ -56,9 +56,12 @@ export default function PresidentFempowerPage() {
               className="w-full h-auto object-cover"
             />
           </div>
-          <p className="max-w-4xl mx-auto text-center font-bold text-brand-green italic text-xl md:text-2xl mb-10 animate-slide-up animate-delay-500">
-            This became the foundation on which FemPower was created.
-          </p>
+          <div className="text-center">
+  <p className="max-w-4xl mx-auto font-bold text-brand-green italic text-xl md:text-2xl mb-10 animate-slide-up animate-delay-500">
+    This became the foundation on which FemPower was created.
+  </p>
+</div>
+
 
           {/* 3‑image collage */}
           <div className="max-w-4xl mx-auto grid md:grid-cols-[0.9fr,1.1fr] gap-6 mb-12">
@@ -110,10 +113,14 @@ export default function PresidentFempowerPage() {
               className="w-full h-auto object-cover"
             />
           </div>
-          <p className="max-w-3xl mx-auto text-center font-bold text-brand-green italic text-xl md:text-2xl mb-8 animate-slide-up animate-delay-1500">
-            I realized then that, sometimes, crucial information often does not reach the communities that need it most.
-            This is my mission.
-          </p>
+          <div className="text-center">
+  <p className="max-w-3xl mx-auto font-bold text-brand-green italic text-xl md:text-2xl mb-8 animate-slide-up animate-delay-1500">
+    I realized then that, sometimes, crucial information often does not reach the communities that need it most.
+    <br />
+    This is my mission.
+  </p>
+</div>
+
 
           <div className="max-w-3xl mx-auto mb-8 text-sm md:text-base leading-relaxed animate-fade-in animate-delay-1600">
             <p>
